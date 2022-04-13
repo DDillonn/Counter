@@ -5,7 +5,6 @@ const Clock = (props) => {
 	let counter = "000000";
 	let result = counter.split("");
 	// console.log(result);
-	// let timeInterval = props.timeInterval.toString();
 	return counter;
 };
 Clock.propTypes = {
