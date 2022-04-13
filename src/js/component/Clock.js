@@ -6,7 +6,7 @@ const Clock = (props) => {
 	let result = counter.split("");
 	// console.log(result);
 	// let timeInterval = props.timeInterval.toString();
-	return(counter);
+	return counter;
 };
 Clock.propTypes = {
 	timeInterval: propTypes.string,
